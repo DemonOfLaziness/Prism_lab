@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="Prism_lab.Modules.BirdModule.Views.BirdView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Prism_lab.Modules.BirdModule.Views"
+			 xmlns:uc="clr-namespace:ControlsLibrary;assembly=ControlsLibrary"
+			 xmlns:prism="http://prismlibrary.com/"
+			 xmlns:convs="clr-namespace:Prism_lab.Modules.BirdModule.Converters" 
+			 mc:Ignorable="d" 
+			 prism:ViewModelLocator.AutoWireViewModel="True"
+             d:DesignHeight="450" d:DesignWidth="800">
+	<UserControl.Resources>
+		<Style x:Key="coloredLabel">
+			<Setter Property="Label.BorderThickness" Value="1" />
+			<Setter Property="Label.Background" Value="Teal" />
+		</Style>
+		<convs:ColorToStringConv x:Key="conv"/>
+	</UserControl.Resources>
+		
+	<StackPanel Grid.Column="1" Orientation="Vertical">
+		<Label Style="{DynamicResource ResourceKey=coloredLabel}" Content="Вид птицы: "/>
+		<TextBox Style="{StaticResource ResourceKey=coloredTxtBox}" Text="{Binding CurrBird.Species, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+		<Label Style="{StaticResource ResourceKey=coloredLabel}" Content="Имя: "/>
+		<TextBox Style="{StaticResource ResourceKey=coloredTxtBox}" Text="{Binding CurrBird.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+		<Label Style="{StaticResource ResourceKey=coloredLabel}" Content="Возраст: "/>
+		<TextBox Style="{StaticResource ResourceKey=coloredTxtBox}" Text="{Binding CurrBird.Age, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+		<Label Style="{StaticResource ResourceKey=coloredLabel}" Content="Цвет: "/>
+		<ComboBox ItemsSource="{Binding Colors}" SelectedItem="{Binding CurrBird.Color}">
+			<ComboBox.ItemTemplate>
+				<DataTemplate>
+					<TextBlock Text="{Binding Converter={convs:ColorToStringConv}}"/>
+				</DataTemplate>
+			</ComboBox.ItemTemplate>
+		</ComboBox>
+		<Button Content="Add current bird" Command="{Binding AddElem}" Margin="10"/>
+		<Button Content="Delete current bird" Command="{Binding DelElem}" Margin="10"/>
+	</StackPanel>
+</UserControl>

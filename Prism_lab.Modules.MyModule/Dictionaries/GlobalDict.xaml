@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	
+	<Style x:Key="coloredTxtBox">
+		<Setter Property="TextBox.BorderThickness" Value="2" />
+		<Setter Property="TextBox.TextDecorations" Value="OverLine, Underline" />
+		<Setter Property="TextBox.Background" Value="AntiqueWhite" />
+	</Style>
+	
+</ResourceDictionary>

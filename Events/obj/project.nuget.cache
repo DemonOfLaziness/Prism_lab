@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LPkmDFP/IhqbsY6iNhJw8SjE9HDg3TSt8FTtms6zu98S82vYZi7mHr+0qHJrROTiRi/rNuwPAnggLdtA7xao0g==",
+  "success": true,
+  "projectFilePath": "D:\\Progects\\_C#Labs\\Prism_labs\\Events\\Prism_lab.Events.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Demon\\.nuget\\packages\\prism.core\\8.0.0.1909\\prism.core.8.0.0.1909.nupkg.sha512"
+  ],
+  "logs": []
+}

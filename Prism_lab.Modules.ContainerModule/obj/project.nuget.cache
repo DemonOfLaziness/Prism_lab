@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "rQM3gIZXTQN8Xp9MaxaxsTGUBfCbAh0GUlG8WXZvVl6OsecWqaGyRDZESjYpOI802k7nO0Pa/XL0Sl6eAIVshg==",
+  "success": true,
+  "projectFilePath": "D:\\Progects\\_C#Labs\\Prism_labs\\Prism_lab.Modules.ContainerModule\\Prism_lab.Modules.ContainerModule.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Demon\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\prism.core\\8.0.0.1909\\prism.core.8.0.0.1909.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\prism.wpf\\8.0.0.1909\\prism.wpf.8.0.0.1909.nupkg.sha512"
+  ],
+  "logs": []
+}

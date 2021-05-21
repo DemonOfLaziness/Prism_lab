@@ -1,0 +1,8 @@
+D:\Progects\_C#Labs\Prism_labs\Prism_lab.Modules.MyModule\obj\Debug\netcoreapp3.1\Prism_lab.Modules.BurdModule.csprojAssemblyReference.cache
+D:\Progects\_C#Labs\Prism_labs\Prism_lab.Modules.MyModule\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\Progects\_C#Labs\Prism_labs\Prism_lab.Modules.MyModule\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Progects\_C#Labs\Prism_labs\Prism_lab.Modules.MyModule\obj\Debug\netcoreapp3.1\Prism_lab.Modules.BurdModule_MarkupCompile.cache
+D:\Progects\_C#Labs\Prism_labs\Prism_lab.Modules.MyModule\obj\Debug\netcoreapp3.1\Prism_lab.Modules.BurdModule_MarkupCompile.lref
+D:\Progects\_C#Labs\Prism_labs\Prism_lab.Modules.MyModule\obj\Debug\netcoreapp3.1\Views\BirdView.g.cs
+D:\Progects\_C#Labs\Prism_labs\Prism_lab.Modules.MyModule\obj\Debug\netcoreapp3.1\Views\ContainerView.g.cs
+D:\Progects\_C#Labs\Prism_labs\Prism_lab.Modules.MyModule\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs

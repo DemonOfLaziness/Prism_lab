@@ -1,0 +1,8 @@
+D:\Progects\_C#Labs\Prism_labs\Events\bin\Debug\netcoreapp3.1\Prism_lab.Events.deps.json
+D:\Progects\_C#Labs\Prism_labs\Events\bin\Debug\netcoreapp3.1\Prism_lab.Events.dll
+D:\Progects\_C#Labs\Prism_labs\Events\bin\Debug\netcoreapp3.1\Prism_lab.Events.pdb
+D:\Progects\_C#Labs\Prism_labs\Events\obj\Debug\netcoreapp3.1\Prism_lab.Events.AssemblyInfoInputs.cache
+D:\Progects\_C#Labs\Prism_labs\Events\obj\Debug\netcoreapp3.1\Prism_lab.Events.AssemblyInfo.cs
+D:\Progects\_C#Labs\Prism_labs\Events\obj\Debug\netcoreapp3.1\Prism_lab.Events.csproj.CoreCompileInputs.cache
+D:\Progects\_C#Labs\Prism_labs\Events\obj\Debug\netcoreapp3.1\Prism_lab.Events.dll
+D:\Progects\_C#Labs\Prism_labs\Events\obj\Debug\netcoreapp3.1\Prism_lab.Events.pdb

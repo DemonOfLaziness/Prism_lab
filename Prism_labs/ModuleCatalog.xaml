@@ -1,0 +1,10 @@
+﻿<m:ModuleCatalog xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:m="clr-namespace:Prism.Modularity;assembly=Prism.Wpf">
+
+	<m:ModuleInfo ModuleName="BirdModule" 
+                  ModuleType="Prism_lab.Modules.BirdModule, BirdModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+	<m:ModuleInfo ModuleName="ContainerModule" 
+                  ModuleType="Prism_lab.Modules.ContainerModule, ContainerModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+
+</m:ModuleCatalog>

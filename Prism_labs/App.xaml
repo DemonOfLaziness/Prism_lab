@@ -1,0 +1,10 @@
+﻿<prism:PrismApplication
+	        x:Class="Prism_lab.Shell.App"
+	        xmlns:prism="http://prismlibrary.com/" 
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:local="clr-namespace:Prism_lab.Shell">
+	<Application.Resources>
+         
+    </Application.Resources>
+</prism:PrismApplication>
